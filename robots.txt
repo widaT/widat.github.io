@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://widat.github.io/sitemap.xml
