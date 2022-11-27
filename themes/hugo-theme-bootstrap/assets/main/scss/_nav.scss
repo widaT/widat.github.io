@@ -1,0 +1,9 @@
+.nav-tabs {
+  --#{$prefix}nav-tabs-link-active-bg: var(--#{$prefix}primary);
+  --#{$prefix}nav-tabs-link-active-color: var(--#{$prefix}on-primary);
+}
+
+.nav-pills {
+  --#{$prefix}nav-pills-link-active-bg: var(--#{$prefix}primary);
+  --#{$prefix}nav-pills-link-active-color: var(--#{$prefix}on-primary);
+}

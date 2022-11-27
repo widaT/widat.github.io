@@ -1,0 +1,50 @@
+@import '@docsearch/css/dist/style';
+
+// Configuration
+@import '../../main/scss/functions';
+@import '../../main/scss/variables';
+@import '../../main/scss/variables-theme';
+@import '../../main/scss/variables-theme-dark';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/maps';
+@import '../../main/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+:root {
+  --docsearch-primary-color: var(--#{$prefix}primary);
+}
+
+.DocSearch-Container { /* stylelint-disable-line */
+  z-index: 1070;
+
+  @media (max-width: 750px) {
+    position: fixed;
+  }
+}
+
+.DocSearch-Button { /* stylelint-disable-line */
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-left: .5rem;
+
+  &:hover {
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  @media (max-width: 1399.98px) {
+    margin: 0;
+    width: 100%;
+  }
+
+  .DocSearch-Search-Icon {
+    color: var(--#{$prefix}navbar-color);
+  }
+}
+
+.DocSearch-Button-Placeholder,
+.DocSearch-Button-Keys {
+  display: none;
+}

@@ -1,0 +1,44 @@
+#TableOfContents,
+#post-toc-container > nav { /* stylelint-disable-line */
+  ol,
+  ul {
+    @if $tocStyleType {
+      list-style-type: #{$tocStyleType};
+    }
+
+    padding-left: 1rem;
+  }
+
+  >ol,
+  >ul {
+    @if $tocStyleType == none {
+      padding-left: 0;
+    }
+  }
+
+  ul,
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  a {
+    &.active {
+      color: var(--#{$prefix}primary);
+    }
+  }
+}
+
+#TableOfContents {
+  @extend .surface; /* stylelint-disable-line */
+}
+
+#post-toc-container > nav {
+  background: var(--#{$prefix}surface-bg);
+  color: var(--#{$prefix}surface-color);
+}
+
+.post {
+  #TableOfContents {
+    color: var(--#{$prefix}surface-color) !important;
+  }
+}

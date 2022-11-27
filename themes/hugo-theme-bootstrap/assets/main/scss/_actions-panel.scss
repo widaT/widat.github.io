@@ -1,0 +1,10 @@
+.btn-actions-panel {
+  bottom: 4.5rem;
+}
+
+#offcanvasActionsPanel { /* stylelint-disable-line */
+  .action,
+  .btn-social-share {
+    width: 5rem;
+  }
+}
