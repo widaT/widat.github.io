@@ -144,7 +144,7 @@ creativeCommons:
   # sa: true # Adaptations must be shared under the same terms.
 
 utterances:
-  repo: WidaT # Replace with your repository.
+  repo: widaT/widat.github.io # Replace with your repository.
   #issueTerm: pathname # pathname, url, title, og:title
   label: comment
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
@@ -247,8 +247,8 @@ contact:
     # siteKey: ""
 
 repo:
-  url: https://github.com/widaT
-  branch: main
+  url: https://github.com/widaT/widat.github.io
+  branch: master
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
