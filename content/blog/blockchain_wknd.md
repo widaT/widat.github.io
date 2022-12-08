@@ -1,6 +1,6 @@
 ---
 # type: docs 
-title: BTC挖矿
+title: 区块链学习--BTC挖矿
 date: 2022-12-07T20:38:12+08:00
 featured: false
 draft: true
